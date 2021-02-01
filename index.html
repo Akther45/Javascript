@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h3 class="one">40</h3> 
+   <h3 class="two">30</h3>
+   
+<!--
+   <input type="button" value="+" onclick="add();">
+   <input type="button" value="-" onclick="add();">
+   <input type="button" value="*" onclick="add();">
+   <input type="button" value="/" onclick="add();">
+   <input type="button" value="%" onclick="add();">
+-->
+   
+   
+   
+   
+   
+    <button onclick="add();"> + </button> 
+    <button onclick="sub();"> - </button> 
+    <button onclick="multi();"> * </button> 
+    <button onclick="div();"> / </button> 
+    <button onclick="modu();"> % </button> 
+    
+    <h3 id="one"></h3>
+    
+    
+    
+    
+    <script>
+       function add(){
+           var a = 40;
+           var b = 30;
+           var result = a + b;
+           document.getElementById('one').innerHTML=result;
+       } 
+        
+        
+        function sub(){
+           var a = 40;
+           var b = 30;
+           var result = a - b;
+           document.getElementById('one').innerHTML=result;
+       } 
+        
+        function multi(){
+           var a = 40;
+           var b = 30;
+           var result = a * b;
+           document.getElementById('one').innerHTML=result;
+       } 
+        
+        function div(){
+           var a = 40;
+           var b = 30;
+           var result = a / b;
+           document.getElementById('one').innerHTML=result;
+       } 
+        
+        function modu(){
+           var a = 40;
+           var b = 30;
+           var result = a % b;
+           document.getElementById('one').innerHTML=result;
+       } 
+
+        
+        
+        
+        
+        
+    </script>
+    
+    
+    
+</body>
+</html>
